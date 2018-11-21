@@ -19,7 +19,7 @@ export default Index;
 const PostLink = (props) => (
   <li>
     <Link href={`/post?title=${props.title}`} as={`/p/${props.as}`}>
-      <a>{props.title}</a>
+      <a>{props.as}</a>
     </Link>
   </li>
 )
